@@ -1,0 +1,51 @@
+.conversations {
+  flex-grow: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.conversations-header {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  border-bottom: 1px solid;
+  border-color: #e8e8e8;
+}
+
+.conversations-chat {
+  flex-grow: 1;
+  padding: 16px 0;
+  overflow: scroll;
+}
+
+.message {
+  padding: 8px;
+}
+
+.message > img {
+  height: 45px;
+  width: 45px;
+  border-radius: 5px;
+  margin-right: 16px;
+}
+
+.message-content img {
+  height: 172px;
+  width: 250px;
+}
+
+.message {
+  border-bottom: 1px solid;
+  border-color: #e8e8e8;
+}
+
+.message-user p {
+  margin: 0px;
+}
+
+.message-input {
+  position: sticky;
+  bottom: 0px;
+}
+

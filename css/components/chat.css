@@ -1,0 +1,77 @@
+.chat-bar {
+  color: white;
+  background-color: #4B3949;
+  width: 200px;
+}
+
+.username p {
+  opacity: 0.5;
+  margin: 0;
+  margin-left: 8px;
+}
+
+.online-green-dot {
+  height: 5px;
+  width: 5px;
+  background-color: #1FE5BD;
+}
+
+.offline-grey-dot {
+  height: 5px;
+  width: 5px;
+  background-color: #A198A0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h3{
+  font-size: 16px;
+  margin: 0;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+}
+
+
+.channel {
+  font-size: 14px;
+}
+
+.channel-active {
+  font-size: 14px;
+}
+
+.direct-messages .header {
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user p {
+  margin: 0;
+  margin-left: 8px;
+}
+
+.user-inactive {
+  display: flex;
+  align-items: center;
+}
+
+.user-inactive p {
+  margin: 0;
+  margin-left: 8px;
+  opacity: 0.5;
+}
+

@@ -1,0 +1,5 @@
+/* TODO: slack layout */
+.slack {
+  display: flex;
+  height: 100vh;
+}
